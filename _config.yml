@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -20,13 +20,13 @@ darkmode: false
 
 # Social links
 # twitter_username: jekyllrb
-github_username:  https://github.com/jihwooon
+github_username:  jihwooon
+linkedin_username: jihwan13
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: https://www.linkedin.com/in/jihwan13/
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -34,10 +34,10 @@ linkedin_username: https://www.linkedin.com/in/jihwan13/
 # googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,15 +50,13 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/picture.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  - Java, Kotlin,Spring Framework, JavaScript, NodeJS, MariaDB, AWS 등 기술을 이용해서 서비스 및 배포 경험이 있으며 항상 개발 프로세스와 개발 문화를 개선하려고 노력해 왔습니다.
+  
+  - 개인 시간에 새로운 기술을 이용해서 사이드 프로젝트와 기술 서적을 읽는 것을 즐기고 있습니다.
+  
+  - 여러 사람과의 소통하는 것을 좋아해서 매주 스터디 모임을 통해 공유하는 것을 좋아합니다.
 
 content:
   - title: Projects # Title for the section
