@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 안지환
-title: BackEnd
+title: Back-end Web Developer
 email: jihwooon@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -20,13 +20,13 @@ darkmode: false
 
 # Social links
 # twitter_username: jekyllrb
-# github_username:  jekyll
+github_username:  https://github.com/jihwooon
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-# linkedin_username: jekyll
+linkedin_username: https://www.linkedin.com/in/jihwan13/
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
