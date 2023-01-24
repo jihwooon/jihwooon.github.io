@@ -1,8 +1,8 @@
 
 ## github 이력서 만들기
 
-마음에 드는 템플릿을 가져옵니다
--> [modern-resum-theme](https://github.com/sproogen/modern-resume-theme)
+마음에 드는 템플릿을 가져옵니다  
+👉 [modern-resum-theme](https://github.com/sproogen/modern-resume-theme)
 
 위 템플릿 Readme에 친절하게 설명되어 있습니다.
 
