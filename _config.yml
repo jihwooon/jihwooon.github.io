@@ -1,5 +1,5 @@
 # Site
-# repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: https://jihwooon.github.io/
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -62,45 +62,71 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      # - layout: top-middle
+      #   border: weak  # Value of `weak` will display a weak border below this item. # Any 
+      #                 # other value (or no value) means no border will be displayed
+      #   title: EditAll
+      #   link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #   link_text: 2022-11 ~ 
+      #   additional_links:
+      #     - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #       icon: fab fa-github
+      #       url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #     - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #       icon: fab fa-github
+      #       url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #   # quote: >
+      #   #   Short overview of the project (optional)
+      #   description: | # this will include new lines to allow paragraphs
+      #     - 에딧올(EditAll)은 원격으로 웹 컴포넌트를 제공하는 서비스로, 원하는 컴포넌트를 직접 개발할 필요 없이 편리하게 가져다 사용할 수 있게 돕는다.
+      - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: EditAll
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: 2022-11 ~ 
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        # quote: >
-        #   Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          - 에딧올(EditAll)은 원격으로 웹 컴포넌트를 제공하는 서비스로, 원하는 컴포넌트를 직접 개발할 필요 없이 편리하게 가져다 사용할 수 있게 돕는다.
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: MySeat
+        title: CodeSoom Space
         link: https://github.com/CodeSoom-Project/codesoom-space
-        link_text: 2022-10 ~ 2022-11
+        link_text: https://space.codesoom.com/
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: website  
             icon: fab fa-github
-            url: https://space.codesoom.com/
-        # quote: >
-        #   Short overview of the project (optional)
+            url: https://github.com/CodeSoom-Project/codesoom-space
+        quote: >
+          코드숨 주말 사용하는 사용자들이 공부 계획 및 회고를 작성하는 서비스 앱
         description: | # this will include new lines to allow paragraphs
-          - 
+        
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: BikeMap
+        link: https://github.com/jihwooon/BikeMap
+        link_text: https://github.com/jihwooon/BikeMap
+        additional_links:
+          - title: website  
+            icon: fab fa-github
+            url: https://github.com/jihwooon/BikeMap
+        quote: >
+          자전거 여행을 준비하거나 즐기는 바이커들에게 도움을 주는 커뮤니티
+        description: | # this will include new lines to allow paragraphs
+          - 자전거 루트를 만들 때 코스 설정이나 부대 시설 이용에 도움이 되는 정보를 제공한다.
+          - 타인이 공유한 루트를 검색하고 활용할 수 있게 하여 더 넓은 여행 기회를 제공한다.
+          - 함께 여행을 갈 동행인을 모집하는 과정에서 함께할 회원에 대한 정보를 제공한다.
+          - 동행인을 모집할 수 있는 커뮤니티를 제공한다.
   - title: Experience
     layout: list
     content:
       - layout: left
+        title: 아이엠폼
+        sub_title: BackEnd Engineer
+        caption: 2022.02 - 2022-05
+        link: https://imform.co.kr/service/fintech/index.html
+        # quote: >
+        #   금융산업 분야 SI 회사
+        description: | # this will include new lines to allow paragraphs
+          - 미래에셋페이
+      - layout: left
         title: 핀솔정보
         sub_title: BackEnd Engineer
         caption: 2021.08 - 2022-01
-        # link: Link to company (optional)
+        link: https://www.kbinsure.co.kr/main.ec
         # quote: >
         #   금융산업 분야 SI 회사
         description: | # this will include new lines to allow paragraphs
@@ -113,7 +139,7 @@ content:
         title: 블루시스
         sub_title: BackEnd Engineer
         caption: 2021.03 - 2021.08
-        # link: Link to company (optional)
+        link: https://market.bluesis.com/web/pc/main.php
         # quote: >
         #   식품정보 및 데이터 기술 솔루션 회사
         description: | # this will include new lines to allow paragraphs
@@ -127,6 +153,7 @@ content:
     content:
       - layout: left
         title: 코드숨 이직풀코스반
+        link: https://smartstore.naver.com/codesoom/products/6972927625
         # sub_title: Qualifications (eg. BA Performing Arts)
         caption: 2022.05 - Present
         # quote: >
@@ -136,7 +163,8 @@ content:
           - 주말에 사용하는 사용자들을 위한 [**좌석 예약 프로그램**](https://space.codesoom.com/) 개발
       - layout: left
         title: 코드숨 스프링 4기
-        # sub_title: Qualifications (eg. BA Performing Arts)
+        link: https://www.codesoom.com/courses/spring
+        # sub_title: [소프트웨어 개발의 지혜 스프링](https://www.codesoom.com/courses/spring)
         caption: 2021.11 - 2022.01
         # quote: >
         #   Short institution or course description (optional)
@@ -155,11 +183,21 @@ content:
       - layout: left
         title: 하노이 대학교
         sub_title: 베트남어학과
+        link: https://www.hanu.vn/
         caption: 2013.09 - 2019.06
-        # quote: >
-        #   Short institution or course description (optional)
+        # quote: >          
         description: | # this will include new lines to allow paragraphs
           Description of qualification
+  # - title: Skills
+  #   layout: list
+  #   content:
+  #     - layout: left
+  #     - title: BackEnd
+  #       description: |
+  #         - Java, Kotlin  
+  #         - Spring Boot, Spring MVC, Spring Security, Spring Data JPA  
+  #         - Junit4/5, Mockito, Kotest, MockK  
+  #         - IntelliJ, WebStorm, Visual Studio Code  
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs

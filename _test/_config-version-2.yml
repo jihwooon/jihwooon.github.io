@@ -111,6 +111,14 @@ content:
         caption: A levels
         description: >
           Description of qualification
+  - title: Skill
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Skill 1
+        description: >
+          Description about the work on/with the project
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
