@@ -38,10 +38,10 @@ git push origin main
 ```
 ###  Step 5 - Run
 ```
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `http://localhost:4000`
+bundle install
+bundle exec jekyll serve
+Open your browser to `http://localhost:4000
 ```
 
 ## Reference
-- [bundle exec jekyll serve 구동 문제를 해결하라](https://github.com/jihwooon/jihwooon.github.io/commit/78564c4374760dee2a08ac27f09f86ec286443cb)
+- [bundle install 에러를 해결하라](https://github.com/jihwooon/jihwooon.github.io/commit/78564c4374760dee2a08ac27f09f86ec286443cb)
