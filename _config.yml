@@ -50,66 +50,29 @@ linkedin_username: jihwan13
 
 # About Section
 # about_title: About Me (Use this to override about section title)
+# 어떤 경험을 해왔는지, 어떤 생각을 갖고 있는지, 평소에 어떤 노력을 하고 있는지 등등 Summary 작성하기
 about_profile_image: images/picture.jpg
 about_content: | # this will include new lines to allow paragraphs
-  - Java, Kotlin,Spring Framework, JavaScript, NodeJS, MariaDB, AWS 등 기술을 이용해서 서비스 및 배포 경험이 있으며 항상 개발 프로세스와 개발 문화를 개선하려고 노력해 왔습니다.
-  
-  - 개인 시간에 새로운 기술을 이용해서 사이드 프로젝트와 기술 서적을 읽는 것을 즐기고 있습니다.
-  
-  - 여러 사람과의 소통하는 것을 좋아해서 매주 [스터디 모임](https://jihwan92.notion.site/be569c74834f48a18dcbab6b11dfd7b1)을 통해 공유하는 것을 좋아합니다.
+  Java, Kotlin, Spring Framework, MariaDB, AWS 등 기술을 이용해서 서비스 개발 및 배포 경험이 있습니다. 주로 백엔드 개발을 담당했으며 Spring Framework을 활용한 웹 개발을 개발을 합니다. 필요에 따라 Node을 활용한 웹 개발도 합니다. 5명의 작은 규모의 팀에서 개발자로 처음 입사하여 쇼핑몰을 런칭한 경험이 있고 100명 규모의 금융 회사에서 운영 경험도 있습니다.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Skills
+    layout: list
     content:
-      # - layout: top-middle
-      #   border: weak  # Value of `weak` will display a weak border below this item. # Any 
-      #                 # other value (or no value) means no border will be displayed
-      #   title: EditAll
-      #   link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-      #   link_text: 2022-11 ~ 
-      #   additional_links:
-      #     - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #       icon: fab fa-github
-      #       url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-      #     - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #       icon: fab fa-github
-      #       url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-      #   # quote: >
-      #   #   Short overview of the project (optional)
-      #   description: | # this will include new lines to allow paragraphs
-      #     - 에딧올(EditAll)은 원격으로 웹 컴포넌트를 제공하는 서비스로, 원하는 컴포넌트를 직접 개발할 필요 없이 편리하게 가져다 사용할 수 있게 돕는다.
-      - layout: top-middle
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: CodeSoom Space
-        link: https://github.com/CodeSoom-Project/codesoom-space
-        link_text: https://space.codesoom.com/
-        additional_links:
-          - title: website  
-            icon: fab fa-github
-            url: https://github.com/CodeSoom-Project/codesoom-space
-        quote: >
-          코드숨 주말 사용하는 사용자들이 공부 계획 및 회고를 작성하는 서비스 앱
-        description: | # this will include new lines to allow paragraphs
-        
-      - layout: top-middle
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: BikeMap
-        link: https://github.com/jihwooon/BikeMap
-        link_text: https://github.com/jihwooon/BikeMap
-        additional_links:
-          - title: website  
-            icon: fab fa-github
-            url: https://github.com/jihwooon/BikeMap
-        quote: >
-          자전거 여행을 준비하거나 즐기는 바이커들에게 도움을 주는 커뮤니티
-        description: | # this will include new lines to allow paragraphs
-          - 자전거 루트를 만들 때 코스 설정이나 부대 시설 이용에 도움이 되는 정보를 제공한다.
-          - 타인이 공유한 루트를 검색하고 활용할 수 있게 하여 더 넓은 여행 기회를 제공한다.
-          - 함께 여행을 갈 동행인을 모집하는 과정에서 함께할 회원에 대한 정보를 제공한다.
-          - 동행인을 모집할 수 있는 커뮤니티를 제공한다.
+      - layout: left
+        title: BackEnd
+        description: |
+          - Java, Kotlin  
+          - Spring Boot, Spring MVC, Spring Security, Spring Data JPA  
+          - Junit5, Mockito, Kotest, MockK    
+          - MySQL, MariaDB  
+          - IntelliJ, WebStorm, Visual Studio Code
+      - layout: left
+        title: Infra
+        description: |
+          - GitHub Action
+          - AWS
+          - Docker
   - title: Experience
     layout: list
     content:
@@ -121,7 +84,9 @@ content:
         # quote: >
         #   금융산업 분야 SI 회사
         description: | # this will include new lines to allow paragraphs
-          - 미래에셋페이
+          - 미래에셋페이 서비스 개발 / 운영
+            - 수습 기간 내 관리자 백오피스 개발 과제를 주었습니다. Spring JPA, QueryDSL을 이용한 ORM를 사용해서 API 설계 와 Query 개선을 했습니다.
+            - 회사 채용 조건 항목에는 TDD 항목이 있었지만 실제 내부에서는 TDD를 하지 않고 있어서 TDD(테스트 주도 개발) 학습한 내용을 사내 세미나에서 발표를 해서 팀원들에게 TDD를 알 수 있도록 도움을 주었습니다.
       - layout: left
         title: 핀솔정보
         sub_title: BackEnd Engineer
@@ -148,6 +113,51 @@ content:
           - 알뜰구매쇼핑(BluesisMall) 사이트 구축 및 운영
             - 쇼핑몰 사이트 오픈 및 결제 API 시스템 구축을 했습니다.
             - PHP 과 JavaScript 사이트 운영 및 유지 보수 업무를 했습니다.
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: EditAll
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 2022-11 ~ 
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          원격 컴포넌트를 활용한 Sass 서비스
+        description: | # this will include new lines to allow paragraphs
+          
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: CodeSoom Space
+        link: https://space.codesoom.com/
+        link_text: https://space.codesoom.com/
+        additional_links:
+          - title: website  
+            icon: fab fa-github
+            url: https://github.com/CodeSoom-Project/codesoom-space
+        quote: >
+          코드숨 주말 사용하는 사용자들이 공부 계획 및 회고를 작성하는 서비스 앱
+        description: | # this will include new lines to allow paragraphs
+        
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: BikeMap
+        link: https://github.com/jihwooon/BikeMap
+        link_text: https://github.com/jihwooon/BikeMap
+        additional_links:
+          - title: website  
+            icon: fab fa-github
+            url: https://github.com/jihwooon/BikeMap
+        quote: >
+          자전거 여행을 준비하거나 즐기는 바이커들에게 도움을 주는 커뮤니티
+        description: | # this will include new lines to allow paragraphs
+
   - title: Education
     layout: list
     content:
@@ -158,8 +168,17 @@ content:
         # quote: >
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          - 포트폴리오와 협업 능력을 쌓기 위해 참여
-          - 주말에 사용하는 사용자들을 위한 [**좌석 예약 프로그램**](https://space.codesoom.com/) 개발
+          - 매주 책 한권씩 읽고 질의 문답식 스터디를 진행
+          - 사이즈 프로젝트를 스터디 인원들과 같이 만들어보기 진행
+          - 매일 코딩테스트 문제를 풀고 알고리즘 학습을 공부 진행
+      - layout: left
+        title: 이스트소프트 백엔드 개발자 Externship 1기
+        # sub_title: Qualifications (eg. BA Performing Arts)
+        caption: 2022.04 - 2022.06
+        # quote: >
+        #   Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          - 이스트 소프트 인턴쉽 백엔드 1기
       - layout: left
         title: 코드숨 스프링 4기
         link: https://www.codesoom.com/courses/spring
@@ -170,39 +189,30 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 테스트 코드와 객체 지향 설계에 대한 학습의 필요성과 TDD 기법을 배우기 위해서 참여
           - TDD 개발 기법 유연한 코드 개발과 Git & 코드 리뷰를 통한 협업능력을 학습
-      - layout: left
-        title: 비트교육센터
-        # sub_title: Qualifications (eg. BA Performing Arts)
-        caption: 2020.07 - 2020.12
+      # - layout: left
+      #   title: 비트교육센터
+      #   sub_title: 디지털컨버전스 기반 BackEnd중심, Framework개발자양성과정
+      #   caption: 2020.07 - 2020.12
         # quote: >
         #   Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          - Java & SpringBoot 기초 학습
-          - JSP & SpringBoot 팀 프로젝트 진행
+        # description: | # this will include new lines to allow paragraphs
+        #   - Java & SpringBoot 기초 학습
+        #   - JSP & SpringBoot 팀 프로젝트 진행
       - layout: left
-        title: 하노이 대학교
-        sub_title: 베트남어학과
+        title: Hanoi University
+        sub_title: Tiếng Việt Nam
         link: https://www.hanu.vn/
         caption: 2013.09 - 2019.06
         # quote: >          
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  # - title: Skills
-  #   layout: list
-  #   content:
-  #     - layout: left
-  #     - title: BackEnd
-  #       description: |
-  #         - Java, Kotlin  
-  #         - Spring Boot, Spring MVC, Spring Security, Spring Data JPA  
-  #         - Junit4/5, Mockito, Kotest, MockK  
-  #         - IntelliJ, WebStorm, Visual Studio Code  
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          - 4년제 전문 학사
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 # footer_show_references: true
