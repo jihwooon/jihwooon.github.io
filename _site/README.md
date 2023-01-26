@@ -1,8 +1,8 @@
 
 ## github 이력서 만들기
 
-마음에 드는 템플릿을 가져옵니다
--> [modern-resum-theme](https://github.com/sproogen/modern-resume-theme)
+마음에 드는 템플릿을 가져옵니다  
+👉 [modern-resum-theme](https://github.com/sproogen/modern-resume-theme)
 
 위 템플릿 Readme에 친절하게 설명되어 있습니다.
 
@@ -23,8 +23,8 @@ github 계정이 없을 시 가입을 합니다.
 다운받는 방법은 `.zip` 파일로 다운을 받는 방법이 있습니다.
 
 ```bash
-mkdir <생성하고 싶은 디렉토리 이름>
-cd <생성한 디렉토리 이름>
+mkdir <생성할 폴더>
+cd <생성된 폴더>
 git clone <resume-theme 원격 저장소 주소>
 ```
 
@@ -38,10 +38,10 @@ git push origin main
 ```
 ###  Step 5 - Run
 ```
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `http://localhost:4000`
+bundle install
+bundle exec jekyll serve
+Open your browser to `http://localhost:4000
 ```
 
 ## Reference
-- [bundle exec jekyll serve 구동 문제를 해결하라](https://github.com/jihwooon/jihwooon.github.io/commit/78564c4374760dee2a08ac27f09f86ec286443cb)
+- [bundle install 에러를 해결하라](https://github.com/jihwooon/jihwooon.github.io/commit/78564c4374760dee2a08ac27f09f86ec286443cb)
