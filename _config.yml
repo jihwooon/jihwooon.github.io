@@ -89,7 +89,7 @@ content:
           - 장기 보험 고객 서식 서비스 개발 / 운영
             - 보험 상품 개정에 API 작업 및 UI 작업을 통해 고객들에게 보험 청약서 전달
             - 기획자와 협업하여 보험 상품/개정 기능 개발
-          - 대용량 데이터 환경에서 운영 / 개발
+          - 대용량 데이터 환경에서 개발 / 운영
             - 10만건 이상 대규모 데이터를 안정적으로 배치 수행 작업
             - 기존 배치 작업 쿼리를 튜닝해서 속도 10% 상승
       - layout: left
@@ -105,7 +105,7 @@ content:
             - 메인 화면에 사용자 경험 개선으로 UI 화면 재구성해서 칭찬을 들음
           - [구 알뜰구매쇼핑](https://mall.bluesis.com/) 개발자로 개발 / 운영  
             - PHP, JavaScript 환경에서 사이트 운영 / 개발 업무  
-            - 초기 개발부터 담당하여 [알뜰구매쇼핑](https://mall.bluesis.com/) 쇼핑몰 런칭
+            - 초기 개발부터 담당하여 [구 알뜰구매쇼핑](https://mall.bluesis.com/) 쇼핑몰 런칭
             - NHN KCP API 결제 개발을 통해 회사 매출에 기여 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -179,7 +179,11 @@ content:
         # quote: >
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          2022.11 - 현재 **코드숨 이직 풀코스반**에 수료중에 있습니다. Java/Spring을 활용한 [CodeSoom Space](https://space.codesoom.com/) 프로젝트을 진행한 경험이 있으며, 현재 Kotlin/Spring을 활용한 editAll 프로젝트에 참여중입니다.  
+          2022.11 - 현재 코드숨 이직 풀코스반에 수료중에 있습니다.  
+
+          Java/Spring을 활용한 [CodeSoom Space](https://github.com/CodeSoom-Project/codesoom-space) 프로젝트을 진행한 [CodeSoom Space](https://space.codesoom.com/)서비스 오픈을 했었습니다.
+          
+          현재 Kotlin/Spring을 활용한 EditAll 프로젝트에 참여중입니다.  
       # - layout: left
       #   title: 이스트소프트 백엔드 개발자 Externship 1기
       #   link: https://c11.kr/1a0ww
@@ -198,15 +202,18 @@ content:
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           테스트 코드와 객체 지향 설계에 대한 학습의 필요성과 TDD 기법을 배우기 위해서 참여 TDD 개발 기법 유연한 코드 개발과 Git & 코드 리뷰를 통한 협업능력을 학습
-      # - layout: left
-      #   title: 비트교육센터
-      #   sub_title: 디지털컨버전스 기반 BackEnd중심, Framework개발자양성과정
-      #   caption: 2020.07 - 2020.12
+      - layout: left
+        title: 비트교육센터
+        # sub_title: 디지털컨버전스 기반 BackEnd중심, Framework개발자양성과정
+        caption: 2020.07 - 2020.12
         # quote: >
         #   Short institution or course description (optional)
-        # description: | # this will include new lines to allow paragraphs
-        #   - Java & SpringBoot 기초 학습
-        #   - JSP & SpringBoot 팀 프로젝트 진행
+        description: | # this will include new lines to allow paragraphs
+          디지털컨버전스 기반 BackEnd중심, Framework 개발자양성 과정을 수료하였습니다. 
+
+          Java의 기초 구문, 자료형 활용법과 웹 서버, SpringFramework의 활용에 대한 전반적인 내용을 학습하였습니다.
+
+          Java/SpringFramework를 활용한 [BikeMap](https://github.com/ftowards/TeamProject_BikeMapNew) 프로젝트를 진행한 경험이 있습니다.
       - layout: left
         title: Hanoi University
         sub_title: Tiếng Việt Nam
@@ -214,7 +221,9 @@ content:
         caption: 2013.09 - 2019.06
         # quote: >          
         description: | # this will include new lines to allow paragraphs
-          베트남학과 학사졸업를 졸업했습니다. 한인 하노이 대표 학생회장 겸임을 했습니다.
+          베트남학과 학사과정을 수료하였습니다.
+
+          한인 하노이 대표 학생회장 겸임을 했었습니다.
 
   # - title: A Little More About Me
   #   layout: text
