@@ -114,20 +114,24 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: EditAll
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: 2022-11 ~ 
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text:
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           원격 컴포넌트를 활용한 Sass 서비스
         description: | # this will include new lines to allow paragraphs
-          현재 원격 컴포넌트를 활용한 Sass 서비스 EditAll 프로젝트를 진행하고 있습니다. 
-          
-          - 팀 구성은 프론트 5명과 백엔드 3명 중 백엔드 개발자로 참여 중입니다.
-          - 설계 초기부터 참여해 Node.js 기반의 서버로 구성을 했습니다.
-          - 현재는 Node.js 기반의 Server를 Kotlin으로 전환 중 입니다.
+          현재 원격 컴포넌트를 활용한 Sass 서비스 EditAll 프로젝트를 진행하고 있습니다. 설계 초기부터 참여해 Node.js 기반의 서버로 구성을 했습니다. 현재는 Node.js 기반의 Server를 Kotlin으로 전환 중 입니다.
+          - 기간
+            - 2022.11 ~ 현재
+          - 팀 구성
+            - 프론트 5명과 백엔드 3명 중 (`백엔드 개발자`)로 참여
+          - 사용 기술
+            - Node.js, Express, SpringBoot, Kotlin, MariaDB, AWS, Docker
+            - React, Redux toolkit, React-query, Vite, Typescript
+          - 프로젝트를 통해 배운점
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -141,8 +145,15 @@ content:
         quote: >
           코드숨 주말 사용하는 사용자들이 공부 계획 및 회고를 작성하는 서비스 앱
         description: | # this will include new lines to allow paragraphs
-          - API 문서는 다음 아래에 있습니다.  
-            [Space CodeSoom API](https://api.codesoom-myseat.site/docs/index.html)
+          - 기간
+            - 2022.10 ~ 2022.11
+          - 팀 구성
+            - 프론트 5명과 백엔드 3명 중 (`백엔드 개발자`)로 참여
+          - 사용 기술
+            - SpringBoot, Java11, MariaDB, AWS, Docker
+            - React, Redux toolkit, React-query, Vite, Typescript
+          - 프로젝트를 통해 배운점
+
       # - layout: top-middle
       #   border: weak  # Value of `weak` will display a weak border below this item. # Any 
       #                 # other value (or no value) means no border will be displayed
@@ -162,7 +173,7 @@ content:
     content:
       - layout: left
         title: 코드숨 이직 풀코스반
-        link: https://codesoom.github.io/
+        link: https://c11.kr/1a3df
         # sub_title: Qualifications (eg. BA Performing Arts)
         caption: 2022.11 - Present
         # quote: >
