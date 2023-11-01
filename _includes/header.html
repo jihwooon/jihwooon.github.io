@@ -76,6 +76,27 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.home_username -%}
+        <li>
+          <a target="_blank" href="https://solo.to/{{ site.home_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <i class="fas fa-user" title= "Home link"></i>
+          </a>
+        </li>
+        {%- endif -%}
+        {%- if site.email_username -%}
+        <li>
+          <a target="_blank" href="mailto:{{ site.email }}" target="_blank" class="button button--sacnite button--round-l">
+            <i class="fas fa-envelope" title="Email link"></i>
+          </a>
+        </li>
+        {%- endif -%}
+        {%- if site.blog_username -%}
+        <li>
+          <a target="_blank" href="https://{{ site.blog_username| cgi_escape | escape }}.vercel.app/" target="_blank" class="button button--sacnite button--round-l">
+            <i class="fab fa-blogger" title="Blog link"></i>
+          </a>
+        </li>
+        {%- endif -%}
         {%- if site.youtube_username -%}
           <li>
             <a target="_blank" href="https://www.youtube.com/{{ site.youtube_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">

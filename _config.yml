@@ -7,21 +7,24 @@ version: 2
 
 # Personal info
 name: 안지환
-title: Back-end Web Developer
-email: jihwooon@gmail.com
+title: Server Developer
+# email: jihwooon@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website:  https://hwooon.tistory.com/
-# website_title: Web (Website title override)
+# website: https://jihwanlog.vercel.app/
+# website_title: Blog
 
 # Dark Mode (true/false/never)
 darkmode: never
 
 # Social links
 # twitter_username: jekyllrb
-github_username:  jihwooon
-linkedin_username: jihwan13
+github_username: jihwooon
+home_username: jihwan_ahn
+email_username: jihwooon
+blog_username: jihwanlog
+# linkedin_username: jihwan13
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -36,8 +39,8 @@ linkedin_username: jihwan13
 # Additional icon links
 # additional_links:
 # - title: Link name
-#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+#   icon: fa-solid fa-house
+#   url: https://solo.to/jihwan_ahn
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -66,16 +69,19 @@ content:
       - layout: left
         title: BackEnd
         description: |
-          - Java, Kotlin  
-          - Spring Boot, Spring MVC, Spring Security, Spring Data JPA, QueryDSL
-          - Junit5, Mockito, Kotest, MockK    
-          - MySQL, MariaDB  
-      - layout: left
-        title: Infra
-        description: |
+          - TypeScript, JavaScript
+          - NestJS, Express
+          - Jest
+          - MySQL, AWS
           - GitHub Action
           - AWS
           - Docker
+      # - layout: left
+        # title: Infra
+        # description: |
+        #   - GitHub Action
+        #   - AWS
+        #   - Docker
   - title: Experience
     layout: list
     content:
