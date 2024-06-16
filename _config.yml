@@ -12,7 +12,7 @@ title: Server Developer
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-# website: https://jihwanlog.vercel.app/
+# website: https://velog.io/@jihwooon/posts/
 # website_title: Blog
 
 # Dark Mode (true/false/never)
@@ -23,7 +23,7 @@ darkmode: never
 github_username: jihwooon
 home_username: jihwan_ahn
 email_username: jihwooon
-blog_username: jihwanlog
+blog_username: jihwooon
 # linkedin_username: jihwan13
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -56,37 +56,18 @@ blog_username: jihwanlog
 # 어떤 경험을 해왔는지, 어떤 생각을 갖고 있는지, 평소에 어떤 노력을 하고 있는지 등등 Summary 작성하기
 about_profile_image: images/picture.jpg
 about_content: | # this will include new lines to allow paragraphs
-  백엔드 개발과 배포 역량을 갖춘 개발자 안지환입니다.  
-  배포 프로세스를 이해하고 서버 인프라에 관련 지식도 갖추고 있으며 서버 개발에 필요한 환경 설정과 CI/CD 프로세스를 구성할 수 있습니다.
-
-  역량 증진을 위해 직접 서버 구축과 상황을 파악하기 위한 모니터링 시스템 구축, 안정적인 배포를 위한 배포 전략 수립 및 퍼블릭 클라우드를 직접 다루어 프로젝트에서 큰 성과를 이루었습니다.
+  백엔드 개발과 배포 역량을 갖춘 개발자 안지환입니다. 배포 프로세스를 이해하고 서버 인프라에 관련 지식도 갖추고 있으며 서버 개발에 필요한 환경 설정과 CI/CD 프로세스를 구성할 수 있습니다.  
+  
+  역량 증진을 위해 직접 서버 구축과 상황을 파악하기 위한 모니터링 시스템 구축, 안정적인 배포를 위한 배포 전략 수립 및 퍼블릭 클라우드를 직접 다루어 프로젝트에서 큰 성과를 이루었습니다.  
 
   향후 대규모 트래픽을 안정적으로 처리하는 엔지니어가 되는 것을 목표로 확장 가능한 아키텍처 설계, 데이터베이스 성능 최적화, 클라우드 인프라 운영 역량을 쌓고 있습니다.
 
 content:
-  - title: Skills
-    layout: list
-    content:
-      - layout: left
-        title: BackEnd
-        description: |
-          - TypeScript, JavaScript
-          - NestJS, Express
-          - Jest
-          - MySQL, MariaDB
-      - layout: left
-        title: DevOps
-        description: |
-          - GitHub Action
-          - AWS EC2, RDS
-          - Docker
-          - Loki, Grafana, Prometheus
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
         title: DangDangWalk
         link: https://dangdang-walk.xyz
         sub_title: BackEnd Engineer
@@ -101,18 +82,17 @@ content:
         quote: >
           견주와 반려견이 함께 산책을 통해 건강을 관리 앱 서비스
         description: | # this will include new lines to allow paragraphs
-            - **최종 프로젝트 최우수상 수상:**
-              - 프로그래머스 타입스크립트 웹 풀 사이클 개발 과정에서 습득한 웹 개발 지식과 NestJS 프레임워크 전문성을 바탕으로 반려동물 산책 앱 주도하여 최종 프로젝트 <mark>최우수상</mark>을 수상했습니다. [[더보기](https://github.com/jihwooon/dangdang-walk/wiki)]
-            - **배포 성공률 99% 이상 달성 및 서비스 중단 시간 최소화:**
-              - AWS EC2, RDS, Docker 기반 인프라 구축 및 GitHub Actions CI/CD 파이프라인 자동화를 통해 안정적인 서비스 운영 환경을 구축하고, 배포 실패 및 빌드/테스트 실패 발생 시 신속하게 대응했습니다. [[더보기](https://github.com/jihwooon/dangdang-walk/wiki/8.-Automation#-cicd-%EB%B0%B0%ED%8F%AC)]
-            - **배포 이미지 50% 이상 감소 및 시스템 안정성 극대화:**
-              - **Docker Multi-stage** 빌드 전략 도입으로 **이미지 용량 50%** 감소했습니다. [[더보기](https://www.notion.so/cb39d5134872408f9ae79e9690329bff?pvs=21)]
-              - AWS ECR 용량 제한 문제 해결 및 Blue-Green 배포 전략을 통해 무중단 배포와 신속한 롤백 환경을 구현하여 시스템 안정성을 극대화했습니다. [[더보기](https://www.notion.so/dcca8de15a884808803d3c6596a42257?pvs=21)]
-            - **에러 감지율 향상 및 장애 해결 시간 단축 위한 모니터링 시스템 구축:**
-              - Grafana, Prometheus, Loki 기반 모니터링 시스템 구축 및 Docker 볼륨 활용 로그 연동을 통해 효율적인 장애 대응 체계를 마련했습니다. [[더보기](https://www.notion.so/6d2ba4f6c6424f2ca78348e156cbe6db?pvs=21)]
+            - **최종 프로젝트 최우수상 수상**
+              - 프로그래머스 타입스크립트 웹 풀 사이클 개발 과정에서 습득한 웹 개발 지식과 NestJS 프레임워크 전문성을 바탕으로 **반려동물 산책 앱** 주도하여 최종 프로젝트 <mark>최우수상</mark>을 수상했습니다. [[더보기](https://github.com/jihwooon/dangdang-walk/wiki)]
+            - **배포 성공률 99% 이상 달성 및 서비스 중단 시간 최소화**
+              - AWS EC2, RDS, Docker 기반 인프라 구축 및 GitHub Actions CI/CD 파이프라인 자동화를 통해 **안정적인 서비스 운영 환경**을 구축하고, **배포 실패 및 빌드/테스트 실패** 발생 시 신속하게 대응했습니다. [[더보기](https://github.com/jihwooon/dangdang-walk/wiki/8.-Automation#-cicd-%EB%B0%B0%ED%8F%AC)]
+            - **배포 이미지 50% 이상 감소 및 시스템 안정성 극대화**
+              - Docker Multi-stage 빌드 전략 도입으로 <mark>배포 이미지 용량 50%</mark> 감소했습니다. [[더보기](https://www.notion.so/cb39d5134872408f9ae79e9690329bff?pvs=21)]
+              - AWS ECR 용량 제한 문제 해결 및 Blue-Green 배포 전략을 통해 **무중단 배포**와 신속한 **롤백** 환경을 구현하여 시스템 안정성을 극대화했습니다. [[더보기](https://www.notion.so/dcca8de15a884808803d3c6596a42257?pvs=21)]
+            - **에러 감지율 향상 및 장애 해결 시간 단축 위한 모니터링 시스템 구축**
+              - Grafana, Prometheus, Loki 기반 모니터링 시스템 구축 및 Docker 볼륨 활용 로그 연동을 통해 효율적인 <mark>장애 대응 체계</mark>를 마련했습니다. [[더보기](https://www.notion.so/6d2ba4f6c6424f2ca78348e156cbe6db?pvs=21)]
             
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Shop-mall
         link: https://jihwanlog.vercel.app
@@ -126,11 +106,11 @@ content:
         quote: >
           Nest.js 기반 이커머스 쇼핑몰 REST API 프로젝트
         description: | # this will include new lines to allow paragraphs
-          - **주요 플랫폼 분석 기반 NestJS 환경 서비스 아키텍처 구축:**
+          - **주요 플랫폼 분석 기반 NestJS 환경 서비스 아키텍처 구축**
             - 무신사, 29cm 등 주요 이커머스 플랫폼 분석 결과를 토대로 TypeScript, NestJS 활용하여 확장 가능하고 안정적인 서비스 아키텍처 설계 및 구현했습니다. [[더보기](https://github.com/jihwooon/shpping-mall)]
           - **기능 개발 및 단위 테스트**
             - 상품 관리(CRUD), 회원 관리(가입, 로그인) 핵심 기능 개발 및 Jest, Supertest를 활용한 단위/E2E 테스트 코드 작성으로 시스템 안정성 확보했습니다. [[더보기](https://jihwanlog.vercel.app/api)]
-          - **퍼블릭 클라우드 배포 환경 구축:**
+          - **퍼블릭 클라우드 배포 환경 구축**
             - AWS EC2, RDS 기반 클라우드 인프라 구축 및 GitHub Actions 기반 CI/CD 파이프라인 구축을 통해 병렬 실행으로 CI 시간 단축시켰습니다. [[더보기](https://jihwanlog.vercel.app/blog)]
 
   - title: Experience
@@ -175,7 +155,35 @@ content:
 
           - **쇼핑몰 런칭 후 시스템 안정성 유지**  
             - 발생한 결제 오류 및 시스템 문제에 대한 신속한 유지보수 및 개선 작업을 통해 고객 만족도 향상에 기여했습니다.  
-
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: BackEnd
+        description: |
+          - **TypeScript, JavaScript**
+            - 정적 타입 검사를 통해 안정성을 확보하고, JavaScript의 유연함을 활용하여 복잡한 백엔드 로직을 효율적으로 구현하는 능력을 갖추고 있습니다.
+          - **NestJS, Express**
+            - NestJS의 모듈식 아키텍처와 Express의 미들웨어 시스템을 능숙하게 활용하여 확장 가능하고 유지 보수가 용이한 웹 애플리케이션 및 API 서버를 개발할 수 있습니다.
+          - **MySQL, MariaDB**
+            - 데이터 모델링, 쿼리 최적화, 성능 튜닝 등 MySQL 및 MariaDB를 활용한 데이터베이스 관련 업무를 수행할 수 있는 역량을 보유하고 있습니다. 
+            - 대용량 데이터 처리 및 트랜잭션 관리 경험을 바탕으로 안정적인 데이터 저장 및 조회 환경을 구축할 수 있습니다.
+          - **Jest**
+            - 단위 테스트, 통합 테스트 등 다양한 테스트를 수행할 수 있습니다.
+      - layout: left
+        title: DevOps
+        description: |
+          - **GitHub Action**
+            - 개발 프로세스에 따 
+          - **AWS EC2, RDS**
+            - 퍼블릭 클라우드
+          - **Docker**
+            - 컨테이너 이미지 관리로 효율적인 이미지 용량 관리를 할 수 있습니다.
+          - **Loki, Grafana, Prometheus**
+            - 로그, 메트릭 데이터를 수집하고 시각화하는 통합 모니터링 시스템을 구축할 수 있습니다.
+          - **Git**
+            - Git을 능숙하게 활용하여 **브랜치 전략 수립**, **커밋 관리**, **코드 병합 및 충돌 해결** 등 다양한 Git 기능을 적극적으로 활용 할 수 있습니다.
+            - 반복적이고 수동적인 명령어 작업을 **Shell Script** 활용하여 <mark>Git 자동화 도구</mark>를 만들 수 있습니다.[[더보기](https://velog.io/@jihwooon/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%A7%A4%EB%8B%88%EC%A0%80-Git-Pal-%EB%A7%8C%EB%93%A4%EA%B8%B0)]
   - title: Education
     layout: list
     content:
@@ -186,7 +194,7 @@ content:
         # quote: >
         #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          - **타입스크립트로 함께하는 웹 풀 사이클 개발** 수료했습니다.
+          - **타입스크립트로 함께하는 웹 풀 사이클 개발 1기** 수료했습니다.
           - TypeScript 활용한 프로젝트가 필요로 참여했습니다.
           - TypeScript, React, Infra, CI/CD 학습했습니다.
       - layout: left
@@ -206,7 +214,7 @@ content:
         title: 외부 활동
         # sub_title: Qualifications (eg. BA Performing Arts)
         description: | # this will include new lines to allow paragraphs
-          * [한빛 미디어 "도서 나는 리뷰어다" 도서 리뷰어 활동](https://www.figma.com/exit?url=https%3A%2F%2Fmedium.com%2F%40jihwooon)
+          * [한빛 미디어 "도서 나는 리뷰어다" 도서 리뷰어 활동](https://medium.com/@jihwooon)
           * [Git 브랜치 매니저 Git Pal 만들기](https://velog.io/@jihwooon/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%A7%A4%EB%8B%88%EC%A0%80-Git-Pal-%EB%A7%8C%EB%93%A4%EA%B8%B0)
 
 
