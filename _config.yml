@@ -220,7 +220,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           * [한빛 미디어 "도서 나는 리뷰어다" 도서 리뷰어 활동](https://medium.com/@jihwooon)
           * [Git 브랜치 매니저 Git Pal 만들기](https://velog.io/@jihwooon/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%A7%A4%EB%8B%88%EC%A0%80-Git-Pal-%EB%A7%8C%EB%93%A4%EA%B8%B0)
-
+          * [브라우저에 www.google.com 검색 시 웹 페이지를 볼때까지 과정](https://www.youtube.com/watch?v=wFNOTRuLFVk)
 
 # Footer
 # footer_show_references: true
